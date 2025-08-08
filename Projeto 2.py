@@ -1,0 +1,7 @@
+# Programa que irá calcular seu IMC de acordo com tamanho e peso (Pesquise a tabela de IMC no google)
+nome = input('Digite seu nome:')
+print(f"Olá {nome.capitalize()}, vamos calcular seu IMC?")
+peso = float(input('Digite seu peso em KG:'))
+altura = float(input("Qual é a sua altura em metros?"))
+imc = peso / (altura*altura)
+print(f"O resultado do cálculo do seu IMC é {imc:.2f}.")
